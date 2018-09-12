@@ -16,3 +16,5 @@ app
 	.on('error', error => {
 		console.error(`Something wrong, ${error.message}`);
 	});
+
+export default app;
